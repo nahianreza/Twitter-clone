@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './Components/Login/signup_component.js';
 
 function App() {
   return (
     <div className="App">
+      <Login></Login>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +21,7 @@ function App() {
         </a>
       </header>
     </div>
+
   );
 }
 
